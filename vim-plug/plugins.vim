@@ -49,4 +49,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'pbondoer/vim-42header'    
 	" Vim Table
 	Plug 'dhruvasagar/vim-table-mode'	
+	" Linting
+	Plug 'dense-analysis/ale'
 call plug#end()
